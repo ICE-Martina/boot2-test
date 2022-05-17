@@ -8,7 +8,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class Boot2TestApplication {
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext run = SpringApplication.run(Boot2TestApplication.class, args);
+        SpringApplication.run(Boot2TestApplication.class, args);
     }
 
 }
